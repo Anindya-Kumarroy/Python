@@ -1,0 +1,11 @@
+numbers=[2,3,4,1]
+numbers.append(5)
+print(numbers)
+numbers.sort()
+print(numbers)
+numbers.sort(reverse=True)
+print(numbers)
+numbers.reverse()
+print(numbers)
+numbers.insert(5,6)
+print(numbers)
