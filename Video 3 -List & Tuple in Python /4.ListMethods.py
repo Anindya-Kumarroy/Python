@@ -25,8 +25,8 @@ print(numbers)
 # remove(val): মান (value) দেখে প্রথমবার পাওয়া উপাদানটি লিস্ট থেকে সরিয়ে দেয়
 # নোট: লিস্টে না থাকা মান দিলে ValueError আসবে
 numbers.remove(9)
-print(numbers)  # Output: [5, 2, 9, 4]
+print(numbers)  
 
 # pop(2) মেথডটি 2 নম্বর ইনডেক্সের উপাদানটিকে (যেটি হলো 3) মুছে ফেলবে
 numbers.pop(2)
-print(numbers)  # Output: [5, 2, 4]
+print(numbers)  
