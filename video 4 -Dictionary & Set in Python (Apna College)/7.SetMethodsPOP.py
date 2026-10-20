@@ -1,4 +1,4 @@
-collection= {"Anindya","Neirjara","Sunanda","Radha"}
+collection= {"Anindya","Neirjara","Bina","Radha"}
 
 
 print(collection.pop())      # Random value will be printed

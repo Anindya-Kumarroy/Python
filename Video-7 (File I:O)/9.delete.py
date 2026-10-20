@@ -1,2 +1,2 @@
 import os
-os.remove("Practice.txt")
+os.remove("practice.txt")

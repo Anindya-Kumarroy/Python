@@ -7,7 +7,8 @@ info={
 }
 print(info)
 print(info["Wife"])  #individual element printing.
-info["Wife"]="Sunanda"
-info["Surname"]="Sarkar"  #newly added.
+info["Wife"]="Bina"
+info["Surname"]="Chakrabarty"  #newly added.
 print(info["Wife"])
 print(info["Surname"])
+print(type(info))
