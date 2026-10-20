@@ -1,11 +1,7 @@
-numbers=[2,3,4,1]
-numbers.append(5)
-print(numbers)
-numbers.sort()
-print(numbers)
-numbers.sort(reverse=True)
-print(numbers)
-numbers.reverse()
-print(numbers)
-numbers.insert(5,6)
-print(numbers)
+numbers=[1,2,3,4,3,2,1]
+num=numbers.copy()
+num.reverse()
+if(num==numbers):
+    print("Palindrome!")
+else:
+    print("Not palindrome!")
